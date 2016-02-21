@@ -1,5 +1,5 @@
 ﻿[<AutoOpen>]
-module LangConcept01_3 = 
+module LangConcept131 = 
 
     type Expr = 
         | CI of int
@@ -22,9 +22,3 @@ Eval e1
 Eval e2
 Eval e3
 Eval e4
-
-
-
-
-
-
