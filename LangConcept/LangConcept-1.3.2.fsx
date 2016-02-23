@@ -24,10 +24,10 @@ module LangConcept132 =
         | Prim ("*",e1,e2) -> (*) (Eval e1 env ) (Eval e2 env )
         | Prim _ -> failwith "primitive not recognized"
 
-    let get env key =
-        match (env |> List.tryFind (fun x -> fst x = key)) with 
-            | Some (_,x) -> Some(x)
-            | _-> None
+    //let get env key =
+    //    match (env |> List.tryFind (fun x -> fst x = key)) with 
+    //        | Some (_,x) -> Some(x)
+    //        | _-> None
 
 // 17
 let e1 = CI 1
